@@ -29,7 +29,7 @@ public class CardDeliverySelenideTest {
         $("[data-test-id='agreement'] span[role]").click();
         $x(".//*[text()='Забронировать']/parent::span/parent::button").click();
         $(".notification__content")
-                .shouldHave(Condition.text("Встреча успешно забронирована на " + planningDate), Duration.ofSeconds(15))
+                .shouldHave(Condition.text("Встрча успешно забронирована на " + planningDate), Duration.ofSeconds(15))
                 .shouldBe(Condition.visible);
 
 
