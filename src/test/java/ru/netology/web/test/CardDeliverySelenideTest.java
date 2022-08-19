@@ -1,9 +1,10 @@
-package ru.netology.web;
+package ru.netology.web.test;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
+import ru.netology.web.data.LocalDateService;
 
 import java.time.Duration;
 
